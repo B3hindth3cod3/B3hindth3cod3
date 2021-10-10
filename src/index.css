@@ -1,0 +1,254 @@
+@font-face {
+  src: url(fonts/KaushanScript-Regular.ttf);
+  font-family: Kaushan;
+  font-style: cursive;
+}
+
+@font-face {
+  src: url(fonts/Anurati-Regular.otf);
+  font-family: anu;
+}
+
+body {
+  background-color: #e58304; 
+  margin: 0; 
+  padding: 0;
+}
+
+/*intro*/
+.header { 
+  color: #fff;
+  height: 10vw;
+  width: 95vw;
+  text-align: center;
+  font-size: 10vw;
+  font-family: anu;
+  margin-top: 60px;
+}
+
+.intro {
+  color: #fff;
+  text-align: center;
+}
+
+.avatar {
+  background-size: contain;
+  border-radius: 50%; /*make avatar a circle not square*/
+  height: 50vw; 
+  width: 50vw; 
+  margin: 10% 0% 10% 0%; 
+}
+
+.intro h2 {
+  font-family: Kaushan ;
+  font-style: cursive;
+  font-size: 7vw;
+  transform: rotate(-5deg);
+  padding-bottom: 20px;  
+}
+
+p {
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.intro-content {
+  position: relative; 
+  display: flex; 
+  height: 25px;  
+  overflow: hidden;    
+  padding: 20px 0px 20px 80px;  
+}
+
+.descr {
+  font-size: 20px;
+  position: relative;
+  top: -25px;
+}
+
+.extra span {
+  display: block;
+  position: relative;   
+  height: 30px; 
+  width: 150px;  
+  animation: animate 10s ease infinite;    
+  left: 5px;   
+  top: -20px;
+  padding-top: 20px; 
+  font-size: 16px;
+ } 
+
+@keyframes animate {
+  0% {transform: translateY(-100%)}
+  20% {transform: translateY(-100%)}
+  25% {transform: translateY(-200%)} 
+  45% {transform: translateY(-200%)}  
+  50% {transform: translateY(-300%)}
+  70% {transform: translateY(-300%)} 
+  75% {transform: translateY(-400%)}  
+  95% {transform: translateY(-400%)}  
+}
+
+.media {  
+  font-size: 10vw; 
+  display: flex;
+  justify-content: center; 
+}
+
+.social {
+  list-style: none; 
+  display: flex; 
+  position: relative;  
+  margin: 20px 40px 50px 0px;     
+}
+
+.social li a {  
+  padding: 15px; 
+  color: #fff;  
+}
+
+/*about*/
+.about {
+  background-color: #fff;
+  color: #808080;
+  text-align: center;  
+  padding: 15px;  
+}
+
+.me {
+  font-family: anu;  
+}
+
+/*services*/
+.services {  
+  color: #fff;
+  text-align: center;  
+  padding: 5px;    
+  font-family: monospace;
+}
+
+h1 {
+  font-family: anu;  
+  text-align: center;
+}
+
+.sgrid {
+  display: grid;
+  grid-template-rows: repeat(autofit, minmax(autofit, 1fr)) ;
+  justify-content: center;
+}
+
+/*work*/
+.work {
+  background-color: #fff;
+  color: #808080;
+  text-align: center;  
+  font-family: monospace;
+  padding: 10px;
+}
+
+.wgrid {
+  display: grid;
+  grid-template-rows: repeat(autofit, minmax(12rem, 1fr)) ;
+  justify-content: center;  
+}
+
+.card {
+  padding: 0px;    
+  height: 225px;
+  width: 270px;
+  margin-bottom: 25px;  
+}
+
+.cards {
+  padding: 0px;    
+  height: 225px;
+  width: 300px;
+  margin-bottom: 25px;
+  margin-right: -5px;
+  color: #fff;
+}
+
+.card img {
+  object-fit: cover;
+  max-width: 100%;  
+  max-height: 200px;
+} 
+
+.card p {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 55px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 10%;
+}
+
+form {
+  display: grid;
+  padding: 20px;
+  gap: 20px;    
+  align-items: center;
+}
+
+form h1 {
+  display: grid;
+  padding: 20px;
+  color: #fff;
+}
+
+form input {
+  padding: 10px;
+  border-color: #fff;
+}
+
+button {
+  position: relative;
+  height: 40px;
+  width: 80px; 
+  right: -150px;
+  color: #e58304;
+  border-radius: 5em;
+  border-color: #fff;
+}
+
+.Message {
+  height: 150px;  
+  padding-top: 0;
+  padding-bottom: 0;
+  border-color: #fff;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  color: #fff;
+}
+
+/*************************Responsive Laptop********************/
+@media (min-width: 430px){
+  .header {   
+    height: 7vw;        
+    font-size: 5vw;    
+    margin-top: 10%;
+  }
+  
+  .intro h2 {
+    font-size: 4vw;  
+  }
+  
+  .avatar {
+    height: 30vw; 
+    width: 30vw; 
+    margin: 3% 0% 3% 0%; 
+  }
+  
+  .media {  
+    font-size: 6vw;  
+  }
+  
+  .social li a {  
+    padding: 10px;      
+  }
+}
