@@ -1,6 +1,6 @@
 ### Hi there, I'm Alan - aka B3hindth3cod3 👋
 
-## I'm a Husband, Father, Developer, and Teacher!!
+## I'm a Husband, Developer, and Teacher!!
 
 - 🌱 I’m currently learning frontend and backend development
 - 👯 I’m open to collaborate with other content creators
