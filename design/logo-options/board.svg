@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" width="900" height="760" role="img" aria-label="Green Future logo options A, B, C">
+  <defs>
+    <symbol id="sprout" viewBox="0 0 150 156">
+      <path d="M62 112 C58 92 34 74 6 40 C40 36 66 62 62 112 Z" style="fill:var(--l)"/>
+      <path d="M66 112 C60 74 84 24 140 0 C148 52 112 96 66 112 Z" style="fill:var(--r)"/>
+      <path d="M60 104 C52 80 36 62 16 46" fill="none" stroke-width="2" stroke-linecap="round" style="stroke:var(--v)"/>
+      <path d="M68 104 C80 66 104 34 134 8" fill="none" stroke-width="2" stroke-linecap="round" style="stroke:var(--v)"/>
+      <path d="M64 108 C64 128 64 142 63 152" fill="none" stroke-width="4" stroke-linecap="round" style="stroke:var(--s)"/>
+    </symbol>
+  </defs>
+  <rect width="900" height="760" fill="#E9E7E0"/>
+
+  <!-- A Faithful -->
+  <g transform="translate(30 30)">
+    <rect width="840" height="220" rx="4" fill="#FFFFFF"/>
+    <use href="#sprout" x="40" y="30" width="145" height="151" style="--l:#5B6F3A;--r:#6B8638;--v:#283618;--s:#5A3A22"/>
+    <text x="230" y="112" font-family="Cardo, Georgia, serif" font-size="62" fill="#283618">Green Future</text>
+    <text x="232" y="148" font-family="Inter, Helvetica, Arial, sans-serif" font-size="14" letter-spacing="3.4" fill="#556B2A">SOLAR · STORAGE · AUTOMATION · ENERGY</text>
+    <text x="20" y="22" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#556B2A">A  FAITHFUL</text>
+  </g>
+
+  <!-- B Researched (dark slate + status green, from ui-ux-pro-max) -->
+  <g transform="translate(30 270)">
+    <rect width="840" height="220" rx="4" fill="#0F172A"/>
+    <use href="#sprout" x="40" y="30" width="145" height="151" style="--l:#16803C;--r:#22C55E;--v:#0F172A;--s:#94A3B8"/>
+    <text x="230" y="112" font-family="'Plus Jakarta Sans', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#F8FAFC">Green Future</text>
+    <text x="232" y="148" font-family="'Plus Jakarta Sans', Helvetica, Arial, sans-serif" font-size="14" letter-spacing="3.4" fill="#94A3B8">SOLAR · STORAGE · AUTOMATION · ENERGY</text>
+    <text x="20" y="22" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#22C55E">B  RESEARCHED</text>
+  </g>
+
+  <!-- C Bold: tile mark, circuit vein, stacked lockup -->
+  <g transform="translate(30 510)">
+    <rect width="840" height="220" rx="4" fill="#F4F1E4"/>
+    <g transform="translate(60 40)">
+      <rect width="140" height="140" rx="22" fill="#283618"/>
+      <use href="#sprout" x="26" y="22" width="88" height="92" style="--l:#A9BF6F;--r:#F4F1E4;--v:#283618;--s:#A9BF6F"/>
+      <circle cx="104" cy="30" r="5" fill="#F2E8A0"/>
+    </g>
+    <text x="232" y="98" font-family="Cardo, Georgia, serif" font-size="30" letter-spacing="9" fill="#6B8638">GREEN</text>
+    <text x="228" y="156" font-family="Cardo, Georgia, serif" font-size="68" font-weight="700" fill="#283618">Future</text>
+    <rect x="232" y="172" width="64" height="3" fill="#6B8638"/>
+    <text x="312" y="176" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#556B2A">SOLAR · STORAGE · AUTOMATION · ENERGY</text>
+    <text x="20" y="22" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#556B2A">C  BOLD</text>
+  </g>
+</svg>
