@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" width="640" height="200" role="img" aria-label="Green Future logo example">
-  <rect width="640" height="200" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" width="700" height="200" role="img" aria-label="Green Future logo example">
+  <rect width="700" height="200" fill="#FFFFFF"/>
   <g transform="translate(40 24)">
     <!-- left leaf (muted olive) -->
     <path d="M62 112 C58 92 34 74 6 40 C40 36 66 62 62 112 Z" fill="#5B6F3A"/>
@@ -11,5 +11,5 @@
     <path d="M64 108 C64 128 64 142 63 152" fill="none" stroke="#5A3A22" stroke-width="3.5" stroke-linecap="round"/>
   </g>
   <text x="210" y="100" font-family="Cardo, Georgia, serif" font-size="58" fill="#283618">Green Future</text>
-  <text x="212" y="134" font-family="Inter, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="4.5" fill="#6B8638">SOLAR · STORAGE · AUTOMATION</text>
+  <text x="212" y="134" font-family="Inter, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="3.6" fill="#6B8638">SOLAR · STORAGE · AUTOMATION · ENERGY</text>
 </svg>
